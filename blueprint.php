@@ -48,24 +48,24 @@ ds_cli_exec( "wp option update timezone_string 'America/Los_Angeles'" );
 
 /** Install & Activate Beaver Builder Agency Plugin located on the Computer - Use Path based on DS-CLI */
 /* Mac example */
-//ds_cli_exec( "cp /Volumes/Data/Dropbox/WP_Pithy/2.\ BBeaver Stuff\1. Beaver Builder Master Zips\bb-plugin-agency.zip ./; wp plugin install ebb-plugin-agency.zip --activate; rm bb-plugin-agency.zip" );
+//ds_cli_exec( "cp /Volumes/Data/Premium_plugins\bb-plugin-agency.zip ./; wp plugin install ebb-plugin-agency.zip --activate; rm bb-plugin-agency.zip" );
 
 /* Windows example */
-ds_cli_exec( "cp 'C:/Users/gregg/Dropbox/WP_Pithy/2. BBeaver Stuff/1. Beaver Builder Master Zips\bb-plugin-agency.zip' ./; wp plugin install bb-plugin-agency.zip --activate; rm bb-plugin-agency.zip" );
+ds_cli_exec( "cp 'C:/Premium_plugins\bb-plugin-agency.zip' ./; wp plugin install bb-plugin-agency.zip --activate; rm bb-plugin-agency.zip" );
 
 /** Install & Activate Beaver Builder Theme located on the Computer - Use Path based on DS-CLI */
 /* Mac example */
-//ds_cli_exec( "cp /Volumes/Data/Dropbox/WP_Pithy/2.\ BBeaver Stuff\1. Beaver Builder Master Zips\bb-theme.zip ./; wp theme install bb-theme.zip; rm bb-theme.zip" );
+//ds_cli_exec( "cp /Premium_theme\bb-theme.zip ./; wp theme install bb-theme.zip; rm bb-theme.zip" );
 
 /* Windows example */
-ds_cli_exec( "cp 'C:/Users/gregg/Dropbox/WP_Pithy/2. BBeaver Stuff/1. Beaver Builder Master Zips\bb-theme.zip' ./; wp theme install bb-theme.zip; rm bb-theme.zip" );
+ds_cli_exec( "cp 'C:/Premium_theme\bb-theme.zip' ./; wp theme install bb-theme.zip; rm bb-theme.zip" );
 
 /** Install & Activate Beaver Builder Child Theme located on the Computer - Use Path based on DS-CLI */
 /* Mac example */
-//ds_cli_exec( "cp /Volumes/Data/Dropbox/WP_Pithy/2.\ BBeaver Stuff\1. Beaver Builder Master Zips\bb-theme-child.zip ./; wp theme install bb-theme-child.zip --activate; rm bb-theme-child.zip" );
+//ds_cli_exec( "cp /Volumes/Data/Premium_theme\bb-theme-child.zip ./; wp theme install bb-theme-child.zip --activate; rm bb-theme-child.zip" );
 
 /* Windows example */
-ds_cli_exec( "cp 'C:/Users/gregg/Dropbox/WP_Pithy/2. BBeaver Stuff/1. Beaver Builder Master Zips\bb-theme-child.zip' ./; wp theme install bb-theme-child.zip --activate; rm bb-theme-child.zip" );
+ds_cli_exec( "cp 'C:/Premium_theme\bb-theme-child.zip' ./; wp theme install bb-theme-child.zip --activate; rm bb-theme-child.zip" );
 
 //** Check if index.php unpacked okay
 if ( is_file( "index.php" ) ) {

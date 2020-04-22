@@ -68,6 +68,9 @@ ds_cli_exec( "cp 'C:/Premium_theme\bb-theme.zip' ./; wp theme install bb-theme.z
 /* Windows example */
 ds_cli_exec( "cp 'C:/Premium_theme\bb-theme-child.zip' ./; wp theme install bb-theme-child.zip --activate; rm bb-theme-child.zip" );
 
+//** Activate Beaver Builder license
+//ds_cli_exec( "wp beaver register --license=<license-key>" );
+
 //** Check if index.php unpacked okay
 if ( is_file( "index.php" ) ) {
 
